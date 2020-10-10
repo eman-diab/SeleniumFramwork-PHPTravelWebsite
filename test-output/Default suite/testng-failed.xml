@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testlogic.SignUpTest">
+        <methods>
+          <include name="CloseDriver"/>
+          <include name="OpenDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserSignUpWithValidData" invocation-numbers="3 4"/>
+        </methods>
+      </class> <!-- testlogic.SignUpTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
