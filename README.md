@@ -14,4 +14,7 @@ I also use DDT to get valid and invalid input data for test cases.
 2- DDT allow to test the website with multiple sets of data values or with large volumes of random data.
 3- TestNG can grouped and prioritize test cases more easily and gives the ability to produce HTML Reports.
 
+## Limitations
+1- using Thread.sleep() method insted of implicitly wait() becouse it dosen't work with me, that is bad practice in automation testing.
+
 
